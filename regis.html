@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="index.html">
+            Home
+        </a>
+        <a>
+            Rent Booth
+        </a>
+    </nav>
+    <div class="cover">
+        <img  class="cover-img" src="img/fullsize.jpg">
+    </div>
+    <div class="form-box">
+        <form>
+            <h2>Register an event space</h2>
+            <div>
+                <h4>Business Name</h4>
+                <input type="text" placeholder="Business Name" >
+            </div>
+            <div>
+                <h4>Booth size</h4>
+                <select name="size" id="size" aria-placeholder="Select booth size" required>
+                    <option value="" disabled selected>Select booth size</option>
+                    <option value="10">10x10 sq.ft.</option>
+                    <option value="15">10x15 sq.ft.</option>
+                </select>
+            </div>
+            <div>
+                <h4>Want a table?</h4>
+                <div class="table">
+                    <input type="radio" id="yes" name="want_table" value=true required>
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="want_table" value=false required>
+                    <label for="no">No</label><br>
+                </div>
+            </div>
+            <div>
+                <h4>Number of chairs</h4>
+                <input class="chair-input" type="number" placeholder="#">
+            </div>
+            <div>
+                <h4>Your Name</h4>
+                <input type="text" placeholder="Name">
+            </div>
+            <div>
+                <h4>Your Tel.</h4>
+                <input type="tel" placeholder="Telephone Number">
+            </div>
+            <div class="submit-button">
+                <input class="submit" type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="register.js"></script>
+</html>

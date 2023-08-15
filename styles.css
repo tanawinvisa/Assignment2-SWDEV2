@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    font-family: Avenir;
+  }
+
+.nav-bar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.nav-bar a {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+a:visited {
+    color: white; /* Set the color for visited links */
+}
+
+.cover {
+    width: 100%; /* This ensures the div takes the full width of its parent */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.cover-img {
+    width: 100%; /* Make the image fit the width of the div */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing that may appear below the image */
+    margin: 0 auto; /* Center the image horizontally within the div */
+    text-align: center;
+}
+.cover-text{
+    position: absolute;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cover-text h1{
+    font-size: 48px;
+    line-height: 44px;
+}
+/* .cover-button{
+    position: absolute;
+    border: none;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+} */
+.booth-detail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    gap: 80px;
+}
+.section div {
+    flex: 1;
+    height: auto;
+}
+.section div img {
+    width: 100%;
+    height: auto;
+}
+.boothimg-frame{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:80px;
+    padding-right: 80px;
+    background-color: rgb(237, 236, 228);
+}
+.booth-text{
+    flex-direction: column;
+    display: flex;
+}
+.about{
+    display: flex;
+    flex: 1;
+    background-color: rgb(230,228,216);
+}
+.about div {
+    width: 50%;
+}
+.about-text h3  {
+    text-align: center;
+}
+.section-frame {
+    display: flex;
+}
+.section-frame img{
+    width: 100%;
+}
+.about-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-text p {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    line-height: 24px;
+}
+.about-text h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+.form-box{
+    background-color: black;
+    color:white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.table{
+    display: flex;
+    justify-content: flex-start;
+}
+input{
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding-left: 8px;
+    height: 22px;
+}
+.table input{
+    width: auto;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: none;
+
+}
+.table label{
+    margin-right: 50px;
+}
+form h4{
+    margin-bottom: 10px;
+    border: none;
+}
+select{
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+}
+.submit-button{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 20px;
+    height: 30px;
+}
+.submit{
+    height: 100%;
+    border: none;
+    font-weight: 600;
+}
+.chair-input{
+    width:50%;
+}
+.regis-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.regis-button{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+}
+.contact{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    background-color: black;
+    color: white;
+}
+.contact h2{
+    margin-bottom: 20px;
+}
+.p-gray{
+    color: gray;
+}
+.p-margin{
+    margin-top: 20px;
+}
