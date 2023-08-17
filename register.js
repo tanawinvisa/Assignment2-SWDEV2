@@ -1,17 +1,4 @@
-// register.js
 
-// You can add your JavaScript code here
-
-// Example: Alerting a message when the form is submitted
-// document.querySelector('form').addEventListener('submit', function(event) {
-//     event.preventDefault(); // Prevent form submission
-
-//     // Get the business name input value
-//     const businessName = document.querySelector('input[placeholder="Business Name"]').value;
-
-//     // Show an alert with the business name
-//     alert(`Thank you, ${businessName}! Your registration has been submitted.`);
-// });
 
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('form');
